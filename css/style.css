@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    background: #00ECB9;
+    font-family: "Open Sans", arial, helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1, h3{
+  color: white;
+  font-weight: 300;
+  line-height: 70px;
+  letter-spacing: -2px;
+  font-size: 60px;
+  margin: 40px 0px 20px;
+}
+
+h3{
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-top: 0;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 100px;
+}
+
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container{
+  max-width: 950px;
+  margin:auto;
+}
+
+.logo{
+  max-width: 200px;
+  position: relative;
+  top: 30px;
+}
+
+
+.logo img{
+  max-width: 100%;
+}
+
+
+.btn{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  background: #ff304b;
+  border-radius: 5px;
+  padding: 10px 60px;
+  position: relative;
+  top: 60px;
+}
+
+header article{
+  position: relative;
+  top: 80px;
+  color: white;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../coderhouse.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+.blackout{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
