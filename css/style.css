@@ -20,6 +20,11 @@ h3{
   margin-top: 0;
 }
 
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
 #clockdiv{
     font-family: sans-serif;
     color: #fff;
@@ -83,7 +88,7 @@ h3{
 
 header article{
   position: relative;
-  top: 80px;
+  top: 50px;
   color: white;
 }
 
